@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 2rem auto 4rem;
+  grid-template-areas:
+    "header header header header"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
+
+.header {
+  background-color: aqua;
+  text-align: center;
+  grid-area: header;
+}
+
+.sidebar {
+  background-color: blueviolet;
+  text-align: center;
+  grid-area: sidebar;
+}
+
+.main-content {
+  background-color: burlywood;
+  text-align: center;
+  grid-area: main;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-area: footer;
+}

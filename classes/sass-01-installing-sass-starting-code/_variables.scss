@@ -1,0 +1,5 @@
+$background-color: white;
+$activelink-background-color: white;
+$colors:(main: #521751, secondary: #fa923f);
+$border-default: 0.05rem solid map-get($colors, main);
+$main-items-width: 90%;
